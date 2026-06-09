@@ -14,7 +14,7 @@
 //         </div>
 
 //         <div className="hero-video-wrapper">
-//           <video className="hero-video" autoPlay muted loop playsInline>
+//           <video className="hero-video" autoPlay muted loop playsInline preload="auto" fetchpriority="high">
 //             <source src={heroVideo} type="video/mp4" />
 //           </video>
 //         </div>
