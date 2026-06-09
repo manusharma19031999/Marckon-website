@@ -27,7 +27,10 @@ function Hero() {
             preload="auto"
             fetchPriority="high"
           >
-            <source src={heroDesktop} type="video/mp4" />
+            <source
+              src="https://cdn.pixabay.com/video/2025/06/19/286631_large.mp4"
+              type="video/mp4"
+            />
           </video>
         </div>
 
