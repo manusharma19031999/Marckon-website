@@ -1,6 +1,6 @@
 import "./Hero.css";
 
-import heroDesktop from "../../assets/videos/Hero Video.mp4";
+import heroDesktop from "../../assets/videos/HeroVideo.mp4";
 import heroMobile from "../../assets/videos/HeroM.mp4";
 
 function Hero() {
