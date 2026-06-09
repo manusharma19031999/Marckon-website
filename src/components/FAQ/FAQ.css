@@ -1,0 +1,210 @@
+/* =========================
+   FAQ SECTION
+========================= */
+
+.faq-section {
+  padding: 40px 0;
+}
+
+.faq-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* =========================
+   BADGE
+========================= */
+
+.faq-badge {
+  width: fit-content;
+
+  margin: 0 auto 40px;
+
+  padding: 10px 20px;
+
+  border-radius: 14px;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  background: #0d0d0d;
+
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+
+  color: #ffffff;
+}
+
+/* =========================
+   HEADING
+========================= */
+
+.faq-heading {
+  text-align: center;
+
+  font-family: "Figtree", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+
+  color: #ffffff;
+
+  line-height: 1.15;
+
+  margin-bottom: 24px;
+}
+
+/* =========================
+   SUBHEADING
+========================= */
+
+.faq-subheading {
+  text-align: center;
+
+  font-family: "Figtree", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+
+  color: #cccccc;
+
+  margin-bottom: 80px;
+}
+
+/* =========================
+   FAQ LIST
+========================= */
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* =========================
+   FAQ CARD
+========================= */
+
+.faq-item {
+  border-radius: 16px;
+
+  overflow: hidden;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  background:
+    radial-gradient(
+      ellipse at bottom,
+      rgba(88, 28, 135, 0.25),
+      transparent 70%
+    ),
+    #0b0b0b;
+
+  transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+/* =========================
+   QUESTION
+========================= */
+
+.faq-question {
+  width: 100%;
+
+  background: transparent;
+
+  border: none;
+
+  padding: 28px 32px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  cursor: pointer;
+
+  text-align: left;
+
+  color: white;
+}
+
+/* =========================
+   QUESTION TEXT
+========================= */
+
+.faq-question span {
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+
+  color: #ffffff;
+}
+
+/* =========================
+   ANSWER
+========================= */
+
+.faq-answer {
+  padding: 0 32px 28px;
+}
+
+.faq-answer p {
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+
+  color: #cccccc;
+
+  line-height: 1.8;
+
+  margin: 0;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+  .faq-section {
+    padding: 0px 0;
+    margin: 20px;
+  }
+
+  .faq-badge {
+    margin-bottom: 28px;
+  }
+
+  .faq-heading {
+    font-size: 28px;
+    line-height: 1.1;
+  }
+
+  .faq-subheading {
+    font-size: 16px;
+
+    margin-bottom: 50px;
+
+    padding: 0 20px;
+  }
+
+  .faq-question {
+    padding: 22px;
+  }
+
+  .faq-question span {
+    font-size: 15px;
+
+    max-width: 90%;
+  }
+
+  .faq-answer {
+    padding: 0 22px 22px;
+  }
+
+  .faq-answer p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+}

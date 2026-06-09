@@ -1,0 +1,47 @@
+/* =========================
+   PROJECTS PAGE
+========================= */
+
+.projects-page {
+  min-height: 100vh;
+
+  padding-top: 100px;
+  padding-bottom: 0px;
+
+
+  width: 100%;
+}
+
+/* =========================
+   VIDEO
+========================= */
+
+.projects-video {
+  width: 100%;
+
+  display: block;
+
+  border-radius: 20px;
+
+  object-fit: cover;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .projects-page {
+    min-height: 65vh;
+
+    padding-top: 90px;
+    padding-bottom: 20px;
+  }
+
+  .projects-video {
+    width: 100%;
+
+    border-radius: 16px;
+  }
+}
