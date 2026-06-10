@@ -1,7 +1,7 @@
 import "./Hero.css";
 
-import heroDesktop from "../../assets/videos/HeroVideo.mp4";
-import heroMobile from "../../assets/videos/HeroM.mp4";
+// import heroDesktop from "../../assets/videos/HeroVideo.mp4";
+// import heroMobile from "../../assets/videos/HeroM.mp4";
 
 function Hero() {
   return (
@@ -28,7 +28,7 @@ function Hero() {
             fetchPriority="high"
           >
             <source
-              src="https://cdn.pixabay.com/video/2025/06/19/286631_large.mp4"
+              src="https://res.cloudinary.com/dfiy7bfoe/video/upload/q_auto/f_auto/v1781067776/Hero_Video_iqo8c3.mp4"
               type="video/mp4"
             />
           </video>
@@ -46,7 +46,10 @@ function Hero() {
             preload="auto"
             fetchPriority="high"
           >
-            <source src={heroMobile} type="video/mp4" />
+            <source
+              src="https://res.cloudinary.com/dfiy7bfoe/video/upload/q_auto/f_auto/v1781067785/HeroM_u57c2r.mp4"
+              type="video/mp4"
+            />
           </video>
         </div>
       </div>
