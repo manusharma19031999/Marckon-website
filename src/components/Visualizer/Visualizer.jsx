@@ -19,7 +19,7 @@ function Visualizer() {
           </h2>
 
           <a
-            href="https://marckonvisualizer.netlify.app/"
+            href="https://marckon-visualizer.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="visualizer-btn"
